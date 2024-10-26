@@ -1,6 +1,8 @@
 ---
 title: "30538 Problem Set 3: git pair"
-author: "Ruyu Zhang"
+merge_conflict_name_2
+author: "Luyao Guo", "Ruyu Zhang"
+ main
 format: 
   pdf:
     include-in-header: 
@@ -27,11 +29,14 @@ np.random.seed(42)
 data = pd.DataFrame(np.random.rand(100), columns=['Random Numbers'])
 
 def preview_data(df):
+  histogram
     histogram = alt.Chart(df).mark_bar().encode(
         alt.X("Random Numbers", bin=True),
         y='count()'
     )
     return [df.head(), histogram]
+    print(df.head(), df.describe())
+main
 
 preview_data(data)
 ```

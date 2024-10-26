@@ -1,6 +1,8 @@
 ---
 title: "30538 Problem Set 3: git pair"
-author: "Luyao Guo"
+merge_conflict_name_2
+author: "Luyao Guo", "Ruyu Zhang"
+ main
 format: 
   pdf:
     include-in-header: 
